@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: at.ac.htl.bhitm3.Model.SchoolTest
--------------------------------------------------------------------------------
-Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in at.ac.htl.bhitm3.Model.SchoolTest
