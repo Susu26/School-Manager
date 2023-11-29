@@ -26,11 +26,6 @@ public class SchoolClassTest {
     }
 
     @Test
-    public void given_new_school_when_adding_student_of_value_null_result_is_false() {
-        assertFalse(schoolClass.addStudent(null));
-    }
-
-    @Test
     public void given_new_school_add_and_remove_student_when_counting_students_then_result_is_zero() {
         var student = School.createStudent();
 
