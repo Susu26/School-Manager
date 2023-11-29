@@ -30,14 +30,14 @@ public class SchoolTest {
     }
 
     @Test public void given_new_school_add_and_remove_class_when_counting_classes_then_result_is_zero() {
-        var teacher = School.createTeacher();
+        var schoolClass = School.createSchoolClass();
 
-        assertTrue(school.addTeacher(teacher));
+        assertTrue(school.addSchoolClass(schoolClass));
 
-        assertEquals(1, school.getTeachers().size());
-        assertEquals(teacher, school.getTeachers().get(0));
+        assertEquals(1, school.getSchoolClasses().size());
+        assertEquals(schoolClass, school.getSchoolClasses().get(0));
 
-        assertTrue(school.removeTeacher(teacher));
+        assertTrue(school.removeSchoolClass(schoolClass));
     }
 
     @Test public void given_new_school_when_counting_teachers_then_result_is_zero() {
