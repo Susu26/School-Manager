@@ -1,0 +1,28 @@
+# ./school-manager/target/
+
+# Maven
+target/
+
+# IntelliJ
+.idea/
+*.iml
+*.iws
+*.iwa
+
+# Logs
+logs/
+*.log
+
+# Mac specific
+.DS_Store
+
+# Compiled class file
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Visual Studio Code
+.vscode/
