@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>at.ac.htl.leonding.bhitm3</groupId>
-  <artifactId>hello</artifactId>
+  <artifactId>SchoolManager</artifactId>
   <version>0.1-SNAPSHOT</version>
 
   <name>hello</name>

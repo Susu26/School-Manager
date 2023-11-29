@@ -14,12 +14,15 @@ public class SchoolClass {
     }
 
     public boolean addStudent(Student student) {
+        var status = true;
+
         if (student != null) {
             this.students.put(student.getStudentNumber(), student);
-            return true;
+        } else {
+            status = false;
         }
 
-        return false;
+        return status;
     }
 
     public boolean removeStudent(int studentNumber) {
